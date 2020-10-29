@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: $primary-color;
+    background-image: $background-gradient1;
+
+    .separador {
+        margin-top: 62px;
+    }
+
+    @media (max-width: 450px) {
+        .separador {
+            display: none;
+        } 
+     }
+}

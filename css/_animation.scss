@@ -1,0 +1,44 @@
+.animation {
+   
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    font-size: 6rem;
+    line-height: 2rem;
+    letter-spacing: -.3rem;
+    text-align: center;
+
+    span{
+        margin: 0 auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+       
+        padding: 23px;
+        &:nth-child(1){
+            background-image: linear-gradient(to right, #d57eeb, #fccb90);
+            animation: cycle1 4s infinite ease-in-out;
+        }
+        &:nth-child(2){
+            background-image: linear-gradient(to right, #d57eeb, #fccb90);
+            animation: cycle1 4s infinite ease-in-out;
+            animation-delay: .8s;
+        }
+        &:nth-child(3){
+            background-image: linear-gradient(to right, #d57eeb, #fccb90);
+            animation: cycle1 4s infinite ease-in-out;
+            animation-delay: 1.6s;
+        }
+    }
+}
+@keyframes cycle1 {
+    0%, 100% {filter: invert(0%);}
+    25%, 75% {filter: invert(50%);}
+    50% {filter: invert(100%);}
+}
+

@@ -1,0 +1,8 @@
+@import './reset';              //Reset dos margins e paddings de todos os elementos.
+@import './variables';          //Variáveis contendo as cores e algumas funções. 
+@import './layout';             //Estilização do layout de forma geral. Containers e tudo que for genérico.
+@import './animation';
+
+@import './header';
+@import './main';
+@import './footer';
